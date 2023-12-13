@@ -1,0 +1,31 @@
+.TodoInput {
+    margin-top: 20px;
+  background-color: red;
+    input {
+      padding: 10px;
+      margin-right: 8px;
+      border: 1px solid #df1c1c;
+      border-radius: 4px;
+      transition: border-color 0.3s ease;
+  
+      &:hover,
+      &:focus {
+        border-color: #2ecc71;
+      }
+    }
+  
+    button {
+      background-color: #2ecc71;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: darken(#2ecc71, 10%);
+      }
+    }
+  }
+  
